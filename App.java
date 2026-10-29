@@ -38,7 +38,11 @@ public class App {
  
  
     public static double multiplicar(double primerNumero, double segundoNumero) {
-        //
+        //Parte de Fran
+        double resultado = 0;
+        resultado = primerNumero * segundoNumero;
+        return resultado;
+    
     }
  
  
