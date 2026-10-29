@@ -26,6 +26,11 @@ public class App {
  
     public static double restar(double primerNumero, double segundoNumero) {
         // hola mi parte soy adri
+
+        double resultado = 0;
+        resultado = primerNumero - segundoNumero;
+        return resultado;
+
     }
  
  
