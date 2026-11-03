@@ -31,6 +31,8 @@ public static void main(String[] args) {
                 case 4:
                     system.out.println("El resultado de dividir es:" + dividir(num1, num2));
                     break;
+                default:
+                    System.out.println("Opción no válida.");
             }
             System.out.println("El resultado es: " + resultado);
         }
