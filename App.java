@@ -3,6 +3,7 @@ import java.util.Scanner;
  
 public class App {
  
+
  		Scanner scan = new Scanner(System.in);
         boolean repetir = true;
         int num1, num2, menu;
@@ -33,26 +34,39 @@ public class App {
             }
             system.out.println("El resultado es: " + resultado);
         }
-
     }
- 
+
  
     public static double sumar(double primerNumero, double segundoNumero) {
-        //
+
+        // Parte de Fran
+        double resultado = 0;
+        resultado = primerNumero + segundoNumero;
+        return resultado;
     }
  
  
     public static double restar(double primerNumero, double segundoNumero) {
-        //
+        // hola mi parte soy adri
+
+        double resultado = 0;
+        resultado = primerNumero - segundoNumero;
+        return resultado;
     }
  
  
     public static double multiplicar(double primerNumero, double segundoNumero) {
-        //
+        //Parte de Fran
+        double resultado = 0;
+        resultado = primerNumero * segundoNumero;
+        return resultado;
     }
  
  
     public static double dividir(double primerNumero, double segundoNumero) {
-        //
+        // hola mi parte soy adri
+        double resultado = 0;
+        resultado = primerNumero / segundoNumero;
+        return resultado;
     }
 }
