@@ -6,15 +6,14 @@ public static void main(String[] args) {
 
  		Scanner scan = new Scanner(System.in);
         boolean repetir = true;
-        int num1, num2, menu;
-        double resultado;
-
+        double num1, num2;
+        int menu;
     
         while(repetir==true){
             System.out.println("Introduce el primer número: ");
-            num1 = scan.nextInt();
+            num1 = scan.nextDouble();
             System.out.println("Introduce el segundo número: ");
-            num2 = scan.nextInt();
+            num2 = scan.nextDouble();
 
             System.out.println("Dime que operacion deseas realizar: sumar(1), restar(2), multiplicar(3), dividir(4)");
             menu = scan.nextInt();
@@ -34,7 +33,6 @@ public static void main(String[] args) {
                 default:
                     System.out.println("Opción no válida.");
             }
-            System.out.println("El resultado es: " + resultado);
         }
     }
 
