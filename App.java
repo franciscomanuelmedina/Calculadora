@@ -20,16 +20,16 @@ public static void main(String[] args) {
             menu = scan.nextInt();
             switch (menu){
                 case 1:
-                    system.out.println("El resultado de sumar es:" + sumar(num1, num2));
+                    System.out.println("El resultado de sumar es:" + sumar(num1, num2));
                     break;
                 case 2:
-                    system.out.println("El resultado de restar es:" + restar(num1, num2));
+                    System.out.println("El resultado de restar es:" + restar(num1, num2));
                     break;
                 case 3:
-                    system.out.println("El resultado de multiplicar es:" + multiplicar(num1, num2));
+                    System.out.println("El resultado de multiplicar es:" + multiplicar(num1, num2));
                     break;
                 case 4:
-                    system.out.println("El resultado de dividir es:" + dividir(num1, num2));
+                    System.out.println("El resultado de dividir es:" + dividir(num1, num2));
                     break;
             }
             System.out.println("El resultado es: " + resultado);
